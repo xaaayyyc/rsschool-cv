@@ -21,7 +21,7 @@ I will become a good front-end developer, I will succeed. I believe in it.
 ***
 ## Code example:
 A task that I came up with myself in process learning JavaScript on one of courses:
-```
+```javascript
 // Displaying the amount in a line of the form: "Ваши входние данные Множитель1 * Множитель два. Произведение равно Произведение."
 // Use: arrow functions, syntax ${variable}.
 
