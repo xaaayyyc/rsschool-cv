@@ -21,7 +21,7 @@ I will become a good front-end developer, I will succeed. I believe in it.
 ***
 ## Code example:
 A task that I came up with myself in process learning JavaScript on one of courses:
-'''
+```
 // Displaying the amount in a line of the form: "Ваши входние данные Множитель1 * Множитель два. Произведение равно Произведение."
 // Use: arrow functions, syntax ${variable}.
 
@@ -51,7 +51,7 @@ const printResult = (firstFactor, secondFactor) => {
 printInfo(firstFactor, secondFactor)
 printProcess()
 setTimeout(() => {printResult(firstFactor, secondFactor)}, 8500)
-'''
+```
 ***
 ## Courses:
 * RS Schools course «JavaScript/Front-end. Stage 0» (in the process)
