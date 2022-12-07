@@ -19,4 +19,44 @@ I will become a good front-end developer, I will succeed. I believe in it.
 * WebStorm
 * Adobe Photoshop
 ***
+## Code example:
+A task that I came up with myself in process learning JavaScript on one of courses:
+'''
+// Displaying the amount in a line of the form: "Ваши входние данные Множитель1 * Множитель два. Произведение равно Произведение."
+// Use: arrow functions, syntax ${variable}.
 
+// Declaring Variables
+const firstFactor = 5
+const secondFactor = 7
+
+// Functions
+const printInfo = (firstFactor, secondFactor) => {
+    console.log(`Ваши входные данные: ${firstFactor} умножается на ${secondFactor} .`)
+}
+
+const printProcess = () => {
+    setTimeout(() => {console.log('///.......')}, 2000)
+    setTimeout(() => {console.log('//////....')}, 4000)
+    setTimeout(() => {console.log('/////////.')}, 6000)
+    setTimeout(() => {console.log('//////////')}, 7000)
+    setTimeout(() => {console.log('...Done!...')}, 7700)
+}
+
+const printResult = (firstFactor, secondFactor) => {
+    const resultVariable = firstFactor * secondFactor
+    console.log(`Результат умножения чисел ${firstFactor} и ${secondFactor} равен ${resultVariable}`)
+}
+
+// Programm
+printInfo(firstFactor, secondFactor)
+printProcess()
+setTimeout(() => {printResult(firstFactor, secondFactor)}, 8500)
+'''
+***
+## Courses:
+* RS Schools course «JavaScript/Front-end. Stage 0» (in the process)
+***
+## Languages:
+* English:  А2 (Pre-intermediate)
+* Russian: C2 (Proficiency)
+***
